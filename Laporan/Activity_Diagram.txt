@@ -1,0 +1,40 @@
+Activity Diagram DAP
+
+User Admin
+1. Admin harus login
+2. System akan melakukan validasi
+-- salah -> login lagi
+-- benar -> lanjut
+3. System akan menampilkan halaman Dashboard Admin
+4. Admin memiliki hak akses CRUD pada 6 Menu Utama :
+- Jabatan
+- User
+- Mahasiswa
+- Dana DAP
+- Pendapatan
+- Pengeluaran
+5. Admin cek Pemasukan dan Pengeluaran
+6. Admin melakukan input data pemasukan atau pengeluaran 
+7. System akan melakukan perubahan (update)
+
+User Dosen
+1. Dosen harus login
+2. System akan melakukan validasi
+-- salah -> login lagi
+-- benar -> lanjut
+3. System akan menampilkan halaman Dashboard Dosen
+4. Dosen memiliki hak akses 4 Menu Utama : 
+- melihat, mengubah dan Menambah Mahasiswa (tidak bisa menghapus)
+- melihat Dana DAP
+- melihat Pendapatan, Pengeluaran beserta Riwayatnya
+
+User Mahasiswa/Mahasiswi
+1. Mahasiswa/Mahasiswi harus login
+2. System akan melakukan validasi
+-- salah -> login lagi
+-- benar -> lanjut
+3. System akan menampilkan halaman Dashboard Mahasiswa/Mahasiswi
+4. Mahasiswa/Mahasiswi memiliki hak akses 4 Menu Utama : 
+- melihat Mahasiswa yang terdaftar sebagai anggota DAP (tidak bisa CRUD seperti admin dan tidak bisa melihat, mengubah dan menambah seperti Dosen)
+- melihat Dana DAP
+- melihat Pendapatan, Pengeluaran beserta Riwayatnya

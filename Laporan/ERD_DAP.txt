@@ -1,0 +1,13 @@
+ERD DAP
+
+Tabel user memiliki Hubungan Relationship One to Many dengan tabel Pengeluaran, Pendapatan, dan Riwayat, dimana yang menjadi Foreign Key id_user. Mengapa demikian ? Karena pada Tabel user dengan id_user tertentu bisa melakukan perubahan pada isi tabel Pemasukan, Pengeluaran dan Riwayat.
+
+Tabel DAP memiliki Hubungan Relationship One to One dengan tabel Riwayat, dimana yang menjadi foreign Key id_DAP. Mengapa demikian?
+Karena pada tabel DAP dengan id_DAP tertentu bisa melakukan Update pada isi tabel Riwayat, dalam arti satu id_DAP memiliki satu riwayat yang bisa di lihat pada dashboard masing-masing user.
+
+Tabel DAP juga memiliki Hubungan Relationship One to Many dengan tabel bulan_pembayaran, dimana yang menjadi foreign key id_bulan_pembayaran. Mengapa demikian?
+Karena DAP itukan merupakan Dana sosial yang terkumpul setiap bulan dalam setahun, berarti dalam setahun ada 12 bulan, seiring bertambahnya tahun, maka banyak bulan_pembayaran yang di Update.
+
+Tabel jabatan memiliki Hubungan Relationship One to One dengan tabel User, dimana yang menjadi foreign key id_jabatan. Mengapa demikian? Kerena pada tabel jabatan dengan id_jabatan tertentu hanya boleh memiliki satu user, artinya satu id_jabatan memiliki satu user.
+
+Tabel mahasiswa memiliki Hubungan Relationship One to One dengan tabel DAP, dimana yang menjadi foreign key id_mhs. Mengapa demikian? Karena satu mahasiswa hanya memiliki satu id_DAP.

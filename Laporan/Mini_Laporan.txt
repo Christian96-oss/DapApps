@@ -1,0 +1,19 @@
+Aplikasi DAP adalah Aplikasi sosial mirip seperti sistem uang kas pada sebuah organisasi, yaitu setiap anggota wajib menyetor dana dap setiap bulan nya. Setelah dana DAP terkumpul, selanjutnya di gunakan untuk keperluan sosial.
+
+Pada Aplikasi DAP ini memiliki 4 user aktif yang memiliki akun di aplikasi, yaitu : 
+
+1. Christian sbg admin yang memiliki user yaitu chris123 
+2. Vany sebagai Dosen yang memiliki user yaitu vany123
+3. Asni sebagai mahasiswi yang memiliki user yaitu asni123
+4. M Assad sebagai mahasiswa, yang memiliki user yaitu assad123
+
+Dana DAP yang di setorkan setiap anggota berjumlah Rp.120.000/bln atau sama dengan Rp. 30.000/minggu
+
+Dana Dap ini telah berjalan mulai dari Bulan Januari-Juni tahun 2022
+
+untuk menghitung Pendapatan secara manual :
+1 user membayar Rp 120.000/bln berarti jumlah DAP keseluruhan setiap bulan 120.000*4 = Rp. 480.000
+
+Berarti total Pendapatan DAP dari Bulan Januari-Juni, yaitu 480.000*6 = Rp. 2.880.000
+
+
